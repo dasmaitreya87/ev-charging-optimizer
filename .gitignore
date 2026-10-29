@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data files
+data/raw/*.pkl
+data/raw/*.graphml
+data/processed/*.csv
+data/processed/*.parquet
+data/cache/
+
+# Results
+results/*.html
+results/*.png
+results/*.json
+results/*.csv
+
+# API Keys
+*.key
+.env
+.env.local
+api_keys.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
